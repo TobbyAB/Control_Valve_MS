@@ -1,0 +1,114 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=1252791098
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[Simulator]
+Freq=16000000
+[struct_types]
+Fmt0=SUART_STRUCT-buf_len	3	0
+Fmt1=SYSDATA_STRUCT-Battery	4	0
+Fmt2=SYSDATA_STRUCT-DL_Pulse	4	0
+Fmt3=SYSDATA_STRUCT-DL_Pulse2	3	0
+Fmt4=SYSDATA_STRUCT-DL_Sec	3	0
+Fmt5=SYSDATA_STRUCT-DL_Times	3	0
+Fmt6=SYSDATA_STRUCT-DL_Times2	3	0
+Fmt7=SYSDATA_STRUCT-MST	3	0
+Fmt8=SYSDATA_STRUCT-State	4	0
+Fmt9=SYSDATA_STRUCT-T_Day	3	0
+Fmt10=SYSDATA_STRUCT-T_Hour	3	0
+Fmt11=SYSDATA_STRUCT-T_Month	3	0
+Fmt12=SYSDATA_STRUCT-T_XyMonth	3	0
+Fmt13=SYSDATA_STRUCT-Tamper	4	0
+Fmt14=SYSDATA_STRUCT-XL_Enable	3	0
+Fmt15=SYSDATA_STRUCT-XL_Times	3	0
+Fmt16=SYSDATA_STRUCT-XL_Times2	3	0
+Fmt17=SYSDATA_STRUCT-aaa1	4	0
+Fmt18=sZenner-DLTimesSet1	3	0
+Fmt19=sZenner-SaveFlag	4	0
+[array_types]
+Fmt0=uint8_t[32]	4	0
+Fmt1=unsigned char[10]	4	0
+Fmt2=unsigned char[64]	4	0
+Fmt3=unsigned char[9]	4	0
+[watch_formats]
+Fmt0={W}1:0x5000	4	0
+Fmt1={W}1:Chack	4	0
+Fmt2={W}1:addr	4	0
+[DataSample]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\th7122.c}.169.7" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$}.276.3" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$}.175.5" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$}.157.5" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\ZENNER.c}.519.7" 1 0 0 0 "" 0 ""
+Count=5
+[Aliases]
+A0=_ "C:\Users\Acer\Desktop\2017-8-23-双区域备份   长按10s发射\stm8l051 - 5043\sysdata.c" ""
+A1=_ "E:\Project\2019-04-24-MS-2\soft\MS\STM8L052-5.0\Spi.c" ""
+A2=_ "E:\资料\项目\2016-9-28-抄表\软件\stm8l051 - 5043\main.c" ""
+A3=_ "F:\桑良聚\MS 读表器\程序\2017-7-18-stm8l051-双区域备份\stm8l051 - 5043\main.c" ""
+A4=_ "F:\桑良聚\ms\程序\2017-7-18-stm8l051-双区域备份\stm8l051 - 5043\main.c" ""
+Count=5
+SuppressDialog=1
+[DebuggerSettings]
+DisableInterruptsWhenStepping=0
