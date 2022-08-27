@@ -1,0 +1,8 @@
+
+*.hex
+Debug/Exe/cb.hex
+*.o
+*.pbi
+*.dep
+*.xcl
+*.dep
